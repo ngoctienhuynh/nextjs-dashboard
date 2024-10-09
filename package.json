@@ -1,8 +1,11 @@
 {
   "private": true,
+  "config": {
+    "port": 8000
+  },
   "scripts": {
     "build": "next build",
-    "dev": "next dev",
+    "dev": "next dev --turbo",
     "start": "next start"
   },
   "dependencies": {
